@@ -11,7 +11,6 @@ sections=(
   "04-test-ui"
   "06-network"
   "09-app-access"
-  "10-ci"
   "11-component-tests"
   "end"
 )
