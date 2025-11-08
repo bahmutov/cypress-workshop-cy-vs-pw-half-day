@@ -42,9 +42,6 @@ I will try.
 - using JSON fixture files
 - making HTTP requests
 - network spying and stubbing, fixtures
-- controlling the application clock
-- assertions and retries
-- component testing (React)
 - any questions
 
 ---
@@ -61,33 +58,11 @@ Please clone these repositories, since we will be using through the workshop:
 
 ## Schedule 🕰
 
-1 Day
+Half day
 
 - 9:00 start
-- 10:30 coffee break
-- 12:30 lunch break
-- 13:30 afternoon start
-- 15:00 coffee break
-- ~16:30 the end
+- ~11:50 the end
 - time for questions during the workshop and after each section
-
-+++
-
-## Test topics
-
-- example TodoMVC
-  - web app, data store, REST calls
-- basic tests using Pw and Cy
-- using JSON fixture files
-- making HTTP requests
-- network spying and stubbing, fixtures
-- writing E2E tests practice time (end of network chapter)
-  - "TodoMVC app"
-- controlling the application clock
-- assertions and retries
-- component testing (React)
-- writing E2E and component tests practice time
-  - "Swag store" app
 
 ---
 
