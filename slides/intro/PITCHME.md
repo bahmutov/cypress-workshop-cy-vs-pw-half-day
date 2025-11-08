@@ -44,6 +44,16 @@ I will try.
 - network spying and stubbing, fixtures
 - any questions
 
++++
+
+## What we are NOT going to cover
+
+- assertions and retries deep dive
+- CI
+- component tests
+- app clock
+- agentic coding and codegen tools
+
 ---
 
 ## Example repos
