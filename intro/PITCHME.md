@@ -4,7 +4,7 @@
 
 - [github.com/bahmutov/cypress-workshop-cy-vs-pw-half-day](https://github.com/bahmutov/cypress-workshop-cy-vs-pw-half-day)
 
-Jump to: [00-start](?p=00-start), [01-basic](?p=01-basic), [02-adding-items](?p=02-adding-items), [03-completing-items](?p=03-completing-items), [04-test-ui](?p=04-test-ui), [05-hover](?p=05-hover), [06-network](?p=06-network), [07-clock](?p=07-clock), [08-retries](?p=08-retries), [09-app-access](?p=09-app-access), [10-ci](?p=10-ci), [11-component-tests](?p=11-component-tests), [end](?p=end)
+Jump to: [00-start](?p=00-start), [01-basic](?p=01-basic), [02-adding-items](?p=02-adding-items), [03-completing-items](?p=03-completing-items), [04-test-ui](?p=04-test-ui), [06-network](?p=06-network), [09-app-access](?p=09-app-access), [end](?p=end)
 
 +++
 
@@ -42,10 +42,17 @@ I will try.
 - using JSON fixture files
 - making HTTP requests
 - network spying and stubbing, fixtures
-- controlling the application clock
-- assertions and retries
-- component testing (React)
 - any questions
+
++++
+
+## What we are NOT going to cover
+
+- assertions and retries deep dive
+- CI
+- component tests
+- app clock
+- agentic coding and codegen tools
 
 ---
 
@@ -61,33 +68,11 @@ Please clone these repositories, since we will be using through the workshop:
 
 ## Schedule 🕰
 
-1 Day
+Half day
 
 - 9:00 start
-- 10:30 coffee break
-- 12:30 lunch break
-- 13:30 afternoon start
-- 15:00 coffee break
-- ~16:30 the end
+- ~11:50 the end
 - time for questions during the workshop and after each section
-
-+++
-
-## Test topics
-
-- example TodoMVC
-  - web app, data store, REST calls
-- basic tests using Pw and Cy
-- using JSON fixture files
-- making HTTP requests
-- network spying and stubbing, fixtures
-- writing E2E tests practice time (end of network chapter)
-  - "TodoMVC app"
-- controlling the application clock
-- assertions and retries
-- component testing (React)
-- writing E2E and component tests practice time
-  - "Swag store" app
 
 ---
 
