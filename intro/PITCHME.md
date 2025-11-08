@@ -54,6 +54,8 @@ I will try.
 - app clock
 - agentic coding and codegen tools
 
+🎁 https://github.com/bahmutov/cypress-workshop-cy-vs-pw
+
 ---
 
 ## Example repos
