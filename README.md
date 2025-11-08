@@ -50,8 +50,6 @@ Adding items | [02-adding-items.md](slides/02-adding-items/PITCHME.md) | [link](
 Completing items | [03-completing-items.md](slides/03-completing-items/PITCHME.md) | [link](https://glebbahmutov.com/cypress-workshop-cy-vs-pw-half-day/?p=03-completing-items) | [pdf](./pdf/03-completing-items.pdf)
 Test UI | [04-test-ui.md](slides/04-test-ui/PITCHME.md) | [link](https://glebbahmutov.com/cypress-workshop-cy-vs-pw-half-day/?p=04-test-ui) | [pdf](./pdf/04-test-ui.pdf)
 Network testing | [06-network.md](slides/06-network/PITCHME.md) | [link](https://glebbahmutov.com/cypress-workshop-cy-vs-pw-half-day/?p=06-network) | [pdf](./pdf/06-network.pdf)
-Clock | [07-clock.md](slides/07-clock/PITCHME.md) | [link](https://glebbahmutov.com/cypress-workshop-cy-vs-pw-half-day/?p=07-clock) | [pdf](./pdf/07-clock.pdf)
-Retries | [08-retries.md](slides/08-retries/PITCHME.md) | [link](https://glebbahmutov.com/cypress-workshop-cy-vs-pw-half-day/?p=08-retries) | [pdf](./pdf/08-retries.pdf)
 App access | [09-app-access.md](slides/09-app-access/PITCHME.md) | [link](https://glebbahmutov.com/cypress-workshop-cy-vs-pw-half-day/?p=09-app-access) | [pdf](./pdf/09-app-access.pdf)
 Continuous integration | [10-ci.md](slides/10-ci/PITCHME.md) | [link](https://glebbahmutov.com/cypress-workshop-cy-vs-pw-half-day/?p=10-ci) | [pdf](./pdf/10-ci.pdf)
 Component tests | [11-component-tests.md](slides/11-component-tests/PITCHME.md) | [link](https://glebbahmutov.com/cypress-workshop-cy-vs-pw-half-day/?p=11-component-tests) | [pdf](./pdf/11-component-tests.pdf)

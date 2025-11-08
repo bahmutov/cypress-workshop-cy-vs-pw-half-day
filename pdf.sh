@@ -10,8 +10,6 @@ sections=(
   "03-completing-items"
   "04-test-ui"
   "06-network"
-  "07-clock"
-  "08-retries"
   "09-app-access"
   "10-ci"
   "11-component-tests"
