@@ -9,7 +9,6 @@ sections=(
   "02-adding-items"
   "03-completing-items"
   "04-test-ui"
-  "05-hover"
   "06-network"
   "07-clock"
   "08-retries"
