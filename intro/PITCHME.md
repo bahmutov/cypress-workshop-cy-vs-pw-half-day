@@ -58,13 +58,11 @@ I will try.
 
 ---
 
-## Example repos
+## Example app repo
 
-Please clone these repositories, since we will be using through the workshop:
+Please clone this repository, since we will be using it through the workshop:
 
 - https://github.com/bahmutov/cy-vs-pw-example-todomvc
-- https://github.com/bahmutov/cy-vs-pw-ci-example
-- https://github.com/bahmutov/taste-the-sauce-vite
 
 ---
 
