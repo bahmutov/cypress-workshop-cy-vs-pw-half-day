@@ -13,9 +13,9 @@
 
 ```bash
 $ node -v
-v20.11.0
+v24.11.0
 $ npm -v
-10.2.4
+11.6.1
 ```
 
 If you need to install Node, see [Basics Requirements](https://github.com/bahmutov/cypress-workshop-basics#requirements) and 📹 [Install Node and Cypress](https://www.youtube.com/watch?v=09KbTRLrgWA)
@@ -51,39 +51,44 @@ $ npx available-versions playwright
 
 ---
 
-## Todo: scaffold Playwright
+## Playwright files
 
 - clone repo `https://github.com/bahmutov/cy-vs-pw-example-todomvc`
 
 In the folder with [bahmutov/cy-vs-pw-example-todomvc](https://github.com/bahmutov/cy-vs-pw-example-todomvc) repo
 
 ```
-$ git checkout a1
+$ git checkout files
 $ npm install
-$ npm init playwright@latest
+$ npx playwright install
 ```
-
-Pick folder `pw` for E2E tests and use JavaScript for the specs.
 
 +++
 
-## Todo: inspect the created files
+## inspect Playwright files
 
 Playwright installation creates:
 
 - `playwright.config.js`
 - `pw/example.spec.js`
-- `tests-examples/demo-todo-app.spec.js`
 
 Let's look at each file 👀
 
-🤔 Have any other files been modified?
++++
+
+## 💡 Pro tip
+
+Normally you would scaffold Playwright files using a wizard
+
+```shell
+$ npm init playwright@latest
+```
 
 +++
 
-## Todo: use just the Chromium browser
+## Todo: use 1 browser
 
-- modify the `playwright.config.js` to run the tests on the single bundled Chromium browser
+Modify the PW config to only execute tests a single browser
 
 +++
 
@@ -102,13 +107,28 @@ Let's look at each file 👀
 
 **Tip:** look up test command by `npx playwright help` and `npx playwright <command> help`
 
++++
+
+```js
+// @ts-check
+const { test, expect } = require('@playwright/test')
+
+test('has title', async ({ page }) => {
+  // visit the page "localhost:3000"
+  // Expect a title "to contain" a substring.
+})
+```
+
 Note:
 
 ```js
+// solution
+
 // pw/example.spec.js
 const { test, expect } = require('@playwright/test')
 
 test('has title', async ({ page }) => {
+  // visit the page "localhost:3000"
   await page.goto('http://localhost:3000/')
 
   // Expect a title "to contain" a substring.
@@ -125,6 +145,7 @@ test('has title', async ({ page }) => {
 const { test, expect } = require('@playwright/test')
 
 test('has title', async ({ page }) => {
+  // visit the page "localhost:3000"
   await page.goto('http://localhost:3000/')
 
   // Expect a title "to contain" a substring.
@@ -146,31 +167,20 @@ Execute the above single spec with `npx playwright test` then `npx playwright sh
 
 ---
 
-## Tip: cleanup
+## Todo: inspect Cypress files
 
-Before going to the next step, here is how to clean up modified files:
+Look at the Cypress project files
 
-```
-# remove changes
-$ git reset --hard
-# remove new / untracked files
-$ git clean -d -f
-```
+- `cypress.config.js`
+- `cypress/e2e/spec.cy.js`
 
-💡 You can make a shell alias
++++
 
-```
-alias gnuke="git reset --hard && git clean -df"
-```
+## 💡 Pro tip
 
----
+Normally you would scaffold Cypress files by opening Cypress in the new project for the first time
 
-## Todo: install Cypress
-
-Install Cypress in the project
-
-- `git checkout a2`
-- `npm install -D cypress`
+![Cypress scaffold files](./img/start2.png)
 
 +++
 
@@ -185,14 +195,6 @@ $(npm bin)/cypress open
 # or
 ./node_modules/.bin/cypress open
 ```
-
-+++
-
-## Scaffold Cypress files
-
-Open Cypress once using `npx cypress open`
-
-Inspect the created files
 
 +++
 

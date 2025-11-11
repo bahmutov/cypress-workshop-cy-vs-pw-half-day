@@ -15,10 +15,13 @@ This workshop teaches you how to write Cypress and Playwright tests using the sa
 Check the Node version
 
 ```
+# my Node version is in file .nvmrc
+$ nvm use
+# Now using node v24.11.0 (npm v11.6.1)
 $ node -v
-# for example v20.11.0
+# for example v24.11.0
 $ npm -v
-# for example 10.2.4
+# for example 11.6.1
 ```
 
 ### Example application
