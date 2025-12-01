@@ -3,7 +3,7 @@
 - Playwright is a capable E2E test runner
   - test the UI
   - mock network calls
-  - control the clock
+  - check app state
 
 +++
 
@@ -12,7 +12,7 @@
 - Cypress is a capable E2E test runner
   - test the UI
   - mock network calls
-  - control the clock
+  - check app state
 
 +++
 
